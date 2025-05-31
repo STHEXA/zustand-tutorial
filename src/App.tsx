@@ -1,6 +1,7 @@
 import "./App.css";
 import Board from "./components/Board";
 import Counter from "./components/Counter";
+import UserForm from "./components/UserForm";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Board />
       <div>GPT生成チュートリアル</div>
       <Counter />
+      <UserForm />
     </>
   );
 }
