@@ -1,6 +1,7 @@
 import "./App.css";
 import Board from "./components/Board";
 import Counter from "./components/Counter";
+import PostList from "./components/PostList";
 import TodoList from "./components/TodoList";
 import UserForm from "./components/UserForm";
 
@@ -13,6 +14,7 @@ function App() {
       <Counter />
       <UserForm />
       <TodoList />
+      <PostList />
     </>
   );
 }
